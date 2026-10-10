@@ -4,60 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>我的项目</title>
 </head>
 <body>
     <div id="main_banner">
-        <h1>我的项目</h1>
-        <h2>mis proyectos</h2>
+        <h1 id="title">我的项目</h1>
+        <h1>mis proyectos</h1>
     </div>
     <div class="flexcontainer">
         
         <div id="aboutme" class="sobremi">
-            <h2>Sobre mi</h2>
+            <h2>Sobre Mi</h2>
             <img src="img/digga.jpg" alt="digga" id="me">
             <p>yo we</p>
             <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla molestias reprehenderit obcaecati omnis iste ipsum, commodi temporibus repudiandae placeat libero fugit eos at necessitatibus! Voluptatum quam blanditiis culpa iste.</p>
+            <p>Mi nombre es <b>Gerardo Tapia Fimbres</b>. Actualmente estudio la carrera de Ingeniería en Sistemas de Información en la Universidad de Sonora.</p>
+            <h4>Mis intereses son:</h4>
+            <ul>
+                <li>Big Data</li>
+                <li>Diseño y desarrollo de sitios web</li>
+                <li>Diseño y desarrollo de videojuegos</li>
+                <li>Dibujo y modelado 3D</li>
+                <li>Leer</li>
+                <li>Cocinar </li>
+                <li>Dormir 🦐</li>
+            </ul>
+            <p>Me considero una persona creativa y adaptable, con muchas ganas de aprender y adquirir nuevas habilidades.</p>
+            <hr>
+
+            <div id="contacto">
+                <h3>Contacto:</h3>
+                <hr>
+                <h4>Correo electrónico:</h4>
+                <h5>gerardotapia727@gmail.com</h5>
+                <h4>Número de teléfono:</h4>
+                <h5>+52 6622811053</h5>
+
+            </div>
 
         </div>
-        <div class="interesesyproyectos">
+        <div class="proycap">
             
-            <div id="intereses">
-                <h2>Mis intereses</h2>
+            <div id="proyectos">
+                <h2>Mis Proyectos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus tenetur porro doloribus est iste unde nisi adipisci. Maxime ea blanditiis itaque tempore iure, quaerat dolor voluptatem adipisci dolorem nesciunt.</p>
-                <div class="interesesflex">
-                    <div class="elementointeres">
-                        <h2>dibujar</h2>
+                <div class="proyectosflex">
+                    <div class="elementoproy" id="code" onclick="window.location.href='galeria.html'">
+                        <h2>PROGRAMACIÓN</h2>
                     </div>
-                    <div class="elementointeres">
-                        <h2>programar</h2>
+                    <div class="elementoproy" id="misc" onclick="window.location.href='galeria.html'">
+                        <h2>MISC</h2>
+
                     </div>
-                    <div class="elementointeres">
-                        <h2>modelado 3D</h2>
-                    </div>
+
                 </div>
             </div>
             
-            <div id="proyectos">
-                <h2>Mis proyectos</h2>
+            <div id="capacitaciones">
+                <h2>Capacitaciones</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore numquam rem, odit veritatis, fuga placeat, dolorem fugiat deserunt omnis eveniet voluptatum doloremque quas itaque quis quos necessitatibus velit! Similique, earum!</p>
-                <div class="proyectosflex">
-                    <div class="divproyecto">
+                <div class="capacitacionesflex">
+                    <div class="divcapacitacion">
                         proyecto 1
                     </div>
-                    <div class="divproyecto">
+                    <div class="divcapacitacion">
                         proyecto 2
                     </div>
-                    <div class="divproyecto">
-                        proyecto 3
-                    </div>
-                    <div class="divproyecto">
-                        proyecto 4
-                    </div>
-                    <div class="divproyecto">
-                        proyecto 5
-                    </div>
+
                 </div>
             </div>
 
@@ -65,5 +78,7 @@
         
     </div>
     
+    <script src="js/script.js"></script>
+
 </body>
 </html>
